@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function openModal(index, event) {
-  // Stop the click event from propagating to the .main element
+  
   event.stopPropagation();
 
   const modalContainer = document.getElementById("modalContainer");
@@ -74,7 +74,7 @@ function openModal(index, event) {
   const mainContent = document.querySelector(".main");
   const Fbody = document.body;
 
-  // Example data, replace with your actual project information
+
   const projectsData = [
     {
         title: "Mindfulness Pulse",
@@ -142,7 +142,7 @@ const formattedDescription = projectsData[index].description.replace(/\n/g, '<br
 
 
 modalTitle.textContent = projectsData[index].title;
-modalDescription.innerHTML = formattedDescription; // Use innerHTML to interpret HTML tags
+modalDescription.innerHTML = formattedDescription; 
 Fbody.style.overflow = "hidden";
 
   modalContainer.style.display = "flex";
@@ -163,5 +163,5 @@ function closeModal() {
   modalContainer.style.display = "none";
   blurredBackground.style.display = "none";
   mainContent.style.filter = "none";
-  Fbody.style.overflow = "auto"; // Enable scrolling when modal is closed
+  Fbody.style.overflow = "auto"; 
 }

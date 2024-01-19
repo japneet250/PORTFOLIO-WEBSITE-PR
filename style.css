@@ -514,7 +514,6 @@ span {
   }
 
 
-  /* Add or update this in your existing CSS or style.css file */
 .blurred-background {
   display: none;
   position: fixed;
@@ -527,7 +526,7 @@ span {
   align-items: center;
 }
 
-/* Update this in your existing CSS or style.css file */
+
 .modal-container {
   display: none;
   position: fixed;
@@ -541,12 +540,12 @@ span {
   
 }
 
-/* Update this in your existing CSS or style.css file */
+
 .modal {
   background: white;
   padding: 20px;
-  width: 50%; /* Adjust the maximum width as needed */
-  height: 50%; /* Adjust the maximum height as needed */
+  width: 50%; 
+  height: 50%; 
   overflow-y: auto;
   position: absolute;
   top: 50%;
@@ -568,7 +567,7 @@ span {
 
 
 
-/* Center the skills section on the page */
+
 .skills {
   display: flex;
   justify-content: center;
@@ -579,11 +578,11 @@ span {
   text-align: center;
 }
 
-/* Make the skills section responsive */
+
 .skills-section {
   background-color: var(--second-bg-color);
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Adjust the minmax values as needed */
+  grid-template-columns: repeat(4, 1fr); 
   padding: 20px;
   background-size: cover;
 }
@@ -640,8 +639,8 @@ span {
     width: 32vw;
     height: 32vw;
     border: 5px solid transparent;
-    border-top-color: #ff0000; /* Initial border color */
-    border-bottom-color: #ff0000; /* Initial border color */
+    border-top-color: #ff0000; 
+    border-bottom-color: #ff0000; 
     border-radius: 50%;
     box-sizing:border-box;
     margin-top: 50px;
