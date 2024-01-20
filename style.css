@@ -811,6 +811,17 @@ span {
     width: 100%;
   }
 
+  .text-animation {
+    font-size: 24px; 
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .text-animation span::before,
+  .text-animation span::after {
+    width: auto; 
+  }
+
   .navbar {
     display: none;
     flex-direction: column;
