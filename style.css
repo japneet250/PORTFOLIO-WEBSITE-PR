@@ -782,3 +782,94 @@ span {
 .b1{
   margin-top: 15px;
 }
+
+@media (max-width: 767px) {
+  .header {
+    padding: 2rem 5%;
+  }
+
+  .navbar {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background: var(--second-bg-color);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+  }
+
+  .navbar a {
+    margin: 1rem 0;
+  }
+
+  #menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+
+  section {
+    padding: 6rem 5% 2rem;
+  }
+
+  .home img {
+    width: 80vw;
+    height: 80vw;
+  }
+
+  .home-img::before {
+    width: 80vw;
+    height: 80vw;
+  }
+
+  .projects-container,
+  .skills-section {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 2rem;
+  }
+
+  .about,
+  .contact,
+  .projects,
+  .skills {
+    padding: 4rem 5%;
+  }
+
+  .contact form {
+    max-width: none;
+  }
+
+  .map {
+    width: 100%;
+    height: 30vh;
+  }
+
+  .blurred-background,
+  .modal-container,
+  .modal {
+    width: 100%;
+    height: 100%;
+  }
+
+  .modal {
+    width: 80%;
+    height: 70%;
+  }
+
+  .footer .social a {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+  }
+
+  .footer ul li {
+    display: block;
+    padding: 15px 0;
+  }
+
+  .footer ul li a {
+    border-bottom: none;
+  }
+}
