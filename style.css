@@ -788,6 +788,10 @@ span {
     padding: 2rem 5%;
   }
 
+  .home-content{
+    font-size: 75%;
+  }
+
   .navbar {
     display: none;
     flex-direction: column;
