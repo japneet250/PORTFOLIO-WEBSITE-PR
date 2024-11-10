@@ -96,7 +96,7 @@ function openModal(index, event) {
             " • Optimized similarity search with Pinecone, boosting retrieval precision by 30% for context-specific answers."
     },
 
-{
+    {
         title: "NeuroScan | React, Next.js, Three.js, Flask (Python), TensorFlow, MongoDB, Numpy, scikit-learn",
         description: 
             " • Built a full-stack ML app with 98% accuracy in brain tumor detection using a CNN model on 3,000+ X-ray images\n " +
@@ -123,7 +123,7 @@ function openModal(index, event) {
     "• Implemented core gameplay mechanics, player interactions, and real-time communication features.\n"+
     "• Utilized Elm for front-end, integrating controls for real-time multiplayer functionality.\n"+
     "• Demonstrated expertise in game development, real-time networking, and Elm programming.",
-}
+  },
 
 
 // {
