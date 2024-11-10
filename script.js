@@ -90,17 +90,17 @@ function openModal(index, event) {
     {
         title: "Second Brain | React JS, React Native, Tailwind, Flask (Python), Pinecone, Open-AI APIs, PyPDF",
         description: 
-            " • Developed SecondBrain with Mac AI Society, a CUCAI 2024-recognized full-stack web app"
-            " • Built an intelligent document platform allowing users to query 1,000+ documents with a single upload."
-            " • Enabled single-upload querying by converting and vectorizing 500+ document chunks using GPT-4 and LangChain."
+            " • Developed SecondBrain with Mac AI Society, a CUCAI 2024-recognized full-stack web app.\n" +
+            " • Built an intelligent document platform allowing users to query 1,000+ documents with a single upload.\n " +
+            " • Enabled single-upload querying by converting and vectorizing 500+ document chunks using GPT-4 and LangChain.\n " +
             " • Optimized similarity search with Pinecone, boosting retrieval precision by 30% for context-specific answers."
     },
 
 {
         title: "NeuroScan | React, Next.js, Three.js, Flask (Python), TensorFlow, MongoDB, Numpy, scikit-learn",
         description: 
-            " • Built a full-stack ML app with 98% accuracy in brain tumor detection using a CNN model on 3,000+ X-ray images"
-            " • Developed a secure Flask backend with MongoDB, offering optional anonymous data storage and personalized predictions"
+            " • Built a full-stack ML app with 98% accuracy in brain tumor detection using a CNN model on 3,000+ X-ray images\n " +
+            " • Developed a secure Flask backend with MongoDB, offering optional anonymous data storage and personalized predictions\n " +
             " • Designed an interactive React front-end with Three.js, featuring a 3D brain model and a user-friendly upload system"
     },
     {
