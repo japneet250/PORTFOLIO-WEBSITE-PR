@@ -123,7 +123,7 @@ function openModal(index, event) {
     "• Implemented core gameplay mechanics, player interactions, and real-time communication features.\n"+
     "• Utilized Elm for front-end, integrating controls for real-time multiplayer functionality.\n"+
     "• Demonstrated expertise in game development, real-time networking, and Elm programming.",
-},
+}
 
 
 // {
