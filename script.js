@@ -88,6 +88,22 @@ function openModal(index, event) {
             "This project demonstrates my ability to address real-world challenges, leveraging a range of technologies to create a holistic solution for improving employee mental health."
     },
     {
+        title: "Second Brain | React JS, React Native, Tailwind, Flask (Python), Pinecone, Open-AI APIs, PyPDF",
+        description: 
+            " • Developed SecondBrain with Mac AI Society, a CUCAI 2024-recognized full-stack web app"
+            " • Built an intelligent document platform allowing users to query 1,000+ documents with a single upload."
+            " • Enabled single-upload querying by converting and vectorizing 500+ document chunks using GPT-4 and LangChain."
+            " • Optimized similarity search with Pinecone, boosting retrieval precision by 30% for context-specific answers."
+    },
+
+{
+        title: "NeuroScan | React, Next.js, Three.js, Flask (Python), TensorFlow, MongoDB, Numpy, scikit-learn",
+        description: 
+            " • Built a full-stack ML app with 98% accuracy in brain tumor detection using a CNN model on 3,000+ X-ray images"
+            " • Developed a secure Flask backend with MongoDB, offering optional anonymous data storage and personalized predictions"
+            " • Designed an interactive React front-end with Three.js, featuring a 3D brain model and a user-friendly upload system"
+    },
+    {
         title: "Portfolio Website Development ",
         description: "• Designed and developed a professional personal portfolio website using HTML, CSS, and JavaScript.\n" +
         "• Showcased comprehensive work experience, skills, and project details in a visually appealing and user-friendly format.\n" +
@@ -109,12 +125,6 @@ function openModal(index, event) {
     "• Demonstrated expertise in game development, real-time networking, and Elm programming.",
 },
 
-{
-  title: "Youtube Clone ",
-  description: "• Made a clone for YouTube by just using HTML and CSS.\n" +
-  "• Used different types of HTML and CSS features to make it look alike original YouTube.\n" +
-  "• Looking to make it dynamic using Java-Script in Future.",
-},
 
 // {
 //   title: "Work Experience/Clubs ",
